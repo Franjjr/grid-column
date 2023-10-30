@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-size: 300%;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+img{
+    width: 800px;
+}
+
+.caja{
+    background-color: white;
+    width: 800px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    font-style: italic;
+}
+
+.right{
+    font-weight: bold;
+    font-size: large;
+    color: gray;
+    text-align: right;
+}
+
+p{
+    padding: 5px;
+}
